@@ -1,6 +1,8 @@
 # Project Sharing
 This repository is used to consolidate and host some of the projects I like to do in my free time. It is for me to track my own learning, receiving feedback to improve and to also sharing what I have learnt with others.  
 
+Find out more in my [Github Page](https://chang-jian-ming.github.io/)
+
 ## About myself
 I am an undergraduate based in Singapore, pursing a degree in Information System. I enjoy working on web development, Flutter and machine learning algorithms. 
 
