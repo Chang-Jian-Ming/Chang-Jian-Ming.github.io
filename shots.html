@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Shots</title>
+    <link rel="shortcut icon" type="image/jpg" href="img/logo_favicon_whitebg.png"/>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/shots.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="text-center my-3">
+        <a href="/"><img class="logo" src="img/logo_large_circular_whitebg.png" alt="JM Logo"></a>
+    </div>
+
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="/shots.html">Shots</a>
+        </li>
+    </ul>
+    <!-- Navbar end -->
+
+    <div class="container">
+        <div class="row">
+            <div id="col-1" class="col-md-4">
+                <img class="shots-img" src="img/shots/compressed/IMG_192629-min.jpg" alt="jewel fountain" onclick="fullDisplay(this)"></img>
+                <img class="shots-img" src="img/shots/compressed/DSCF8246-min.JPG" alt="cat" onclick="fullDisplay(this)"></img>
+                <img class="shots-img" src="img/shots/compressed/IMG_205327-min.jpg" alt="sota" onclick="fullDisplay(this)"></img>
+                <img class="shots-img lazyload" data-src="img/shots/compressed/IMG_204632-min.jpg" alt="esplanade" onclick="fullDisplay(this)"></img>
+            </div>
+            <div id="col-2" class="col-md-4">
+                <img class="shots-img lazyload" data-src="img/shots/compressed/IMG_192611-min.jpg" alt="jewel fountain" onclick="fullDisplay(this)"></img>
+                <img class="shots-img lazyload" data-src="img/shots/compressed/IMG_192725-min.jpg" alt="beer" onclick="fullDisplay(this)"></img>
+                <img class="shots-img lazyload" data-src="img/shots/compressed/IMG_155006-min.jpg" alt="museum" onclick="fullDisplay(this)"></img>
+                <img class="shots-img lazyload" data-src="img/shots/compressed/IMG_204925-min.jpg" alt="smu" onclick="fullDisplay(this)"></img>
+            </div>
+            <div id="col-3" class="col-md-4">
+                <img class="shots-img lazyload" data-src="img/shots/compressed/IMG_203944-min.jpg" alt="road" onclick="fullDisplay(this)"></img>
+                <img class="shots-img lazyload" data-src="img/shots/compressed/IMG_192953-min.jpg" alt="rws castle" onclick="fullDisplay(this)"></img>
+                <img class="shots-img lazyload" data-src="img/shots/compressed/IMG_205342-min.jpg" alt="hdl" onclick="fullDisplay(this)"></img>
+            </div>
+        </div>
+    </div>
+
+    <div id="overlay" class="overlay" onclick="hideFullDisplay(this)" hidden>
+        <div class="overlay-content">
+            <img class="lazyload" data-src="img/shots/compressed/IMG_192629.jpg" alt="">
+        </div>
+    </div>
+    
+
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script src="js/shots.js"></script>
+</body>
+
+</html>

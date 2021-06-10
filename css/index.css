@@ -1,0 +1,14 @@
+.fa-color {
+    color: white;
+}
+
+#description {
+    font-family: 'Brush Script MT', "cursive";
+    font-size: x-large;
+}
+
+#profile_image {
+    min-width: 100px;
+    max-width: 8%;
+    height: auto;
+}

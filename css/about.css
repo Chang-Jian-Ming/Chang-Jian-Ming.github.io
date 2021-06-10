@@ -1,0 +1,63 @@
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border: none;
+}
+
+.card .card-body {
+    /* margin: 0;
+    top: 50%; */
+}
+
+.stacked-photo {
+    position: relative;
+    background: transparent; 
+}
+
+.stacked-photo .img-transparent {
+    opacity: 0;
+    max-width: 300px;
+    max-height: 400px;
+}
+  
+.stacked-photo .img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 90%;
+    height: 90%;
+    max-width: 300px;
+    max-height: 400px;
+    z-index: 1;
+    background-image: url(../img/LinkedIn\ Profile\ Full.jpg);
+    border: 5px solid white;
+    border-bottom-width: 3vh;
+    background-size: cover;
+    box-shadow: 5px 5px 5px grey;
+}
+  
+.stacked-photo .background {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 90%;
+    height: 90%;
+    max-width: 300px;
+    max-height: 400px;
+    background-color: lightgray;
+    border: 5px solid white;
+    border-bottom-width: 3vh;
+    box-shadow: 5px 5px 5px grey;
+    transform: rotate(-10deg);
+}
+
+.fa-color {
+    color: white;
+}

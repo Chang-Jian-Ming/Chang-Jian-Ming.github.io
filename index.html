@@ -3,55 +3,79 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chang Jian Ming: Github</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Hi I'm Jian Ming. This page’s purpose is simply to share and track some of the web
+    development or data science/machine learning work I do during my free time. Look around and have fun!">
+    <meta name="keywords"
+        content="Personal webpage, Chang Jian Ming, github, data science, python scripts, web development, mobile application, programming">
+    <meta name="author" content="Chang Jian Ming">
 
-    <!-- Bootstrap CSS CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Chang Jian Ming</title>
+    <link rel="shortcut icon" type="image/jpg" href="img/logo_favicon_whitebg.png" />
 
-    <!-- Icon Library -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
-<body class="text-center">
-    <div class="d-flex flex-column mx-auto">
-        <!-- Navbar -->
-        <header>
-            <div class="inner">
-                <nav class="nav nav-masthead">
-                    <a id="project" class="nav-link" href="projects.html">Projects</a>
-                    <a id="home" class="nav-link active" href="/">Home</a>
-                    <a id="stories" class="nav-link" href="stories.html">Stories</a>
-                </nav>
-            </div>
-        </header>
-
-        <!-- Main Body -->
-        <div class="jumbotron typewriter">
-            <h1 class="display-4">Hello!</h1>
-            <p id="description" class="lead"></p>
-            <hr class="my-4 whiteline">
-            <p>This is a simple page where I will be using to track my own learning and share some of the work I enjoy doing during my free time.
-                I tend to work on flutter, web development and basic machine learning algorithms.
-                I am still learning and will always be learning so feel free to give feedback, comment or share my work.
-                Look around and have fun!
-            </p>
-        </div>
-
-        <!-- Footer -->
-        <footer>
-            <a href="https://www.linkedin.com/in/chang-jian-ming" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            <a href="mailto:changjianming96@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-        </footer>
+<body>
+    <!-- Navbar -->
+    <div class="text-center my-3">
+        <a href="/"><img class="logo" src="img/logo_large_circular_whitebg.png" alt="JM Logo"></a>
     </div>
 
-    <!-- Custom script -->
-    <script src="js/index.js"></script>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/shots.html">Shots</a>
+        </li>
+    </ul>
+    <!-- Navbar end -->
 
+
+    <div class="jumbotron text-light bg-transparent text-center">
+        <img id="profile_image" src="img/LinkedIn Profile.jpg" class="img-thumbnail rounded-circle mb-2"
+            alt="Profile picture">
+        <p class="">Hello, I'm Jian Ming</p>
+        <p id="description"></p>
+        <div>
+            <a class="mx-1" href="https://www.linkedin.com/in/chang-jian-ming" target="_blank"><i
+                    class="fa fa-linkedin fa-color" aria-hidden="true"></i></a>
+            <a class="mx-1" href="https://www.linkedin.com/in/chang-jian-ming" target="_blank"><i
+                    class="fa fa-github fa-color" aria-hidden="true"></i></a>
+            <a class="mx-1" href="mailto:changjianming96@gmail.com"><i class="fa fa-envelope fa-color"
+                    aria-hidden="true"></i></a>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+    <script src="js/index.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

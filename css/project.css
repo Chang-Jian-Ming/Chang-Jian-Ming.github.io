@@ -1,0 +1,60 @@
+.carousel-image {
+    width: 100%;
+    height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    min-width: 200px;
+    max-width: 350px;
+    margin: 1vh;
+    border: none;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card a {
+    border-radius: 50%;
+}
+
+.card .card-text-link {
+    border-radius: 0%;
+    background-color: transparent;
+    color: black;
+    text-decoration: underline;
+}
+
+.data-science-card .card-header, .data-science-card a{
+    color: white;
+    background-color: teal;
+}
+
+.script-card .card-header, .script-card a{
+    color: white;
+    background-color: skyblue;
+}
+
+.web-development-card .card-header, .web-development-card a{
+    color: white;
+    background-color: maroon;
+}
+
+.mobile-application-card .card-header, .mobile-application-card a{
+    color: white;
+    background-color: #ff8c00;
+}
+
+
+
